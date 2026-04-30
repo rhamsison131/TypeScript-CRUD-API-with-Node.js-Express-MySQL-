@@ -1,0 +1,30 @@
+{
+  "name": "typescript-crud-api-with-node.js-express-mysql-",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhamsison131/TypeScript-CRUD-API-with-Node.js-Express-MySQL-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rhamsison131/TypeScript-CRUD-API-with-Node.js-Express-MySQL-/issues"
+  },
+  "homepage": "https://github.com/rhamsison131/TypeScript-CRUD-API-with-Node.js-Express-MySQL-#readme",
+  "devDependencies": {
+    "@types/sequelize": "^4.28.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.8",
+    "sequelize-typescript": "^2.1.6"
+  }
+}
