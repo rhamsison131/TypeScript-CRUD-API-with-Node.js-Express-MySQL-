@@ -6,5 +6,5 @@
         "password": "",
         "database": "typescript_crud_api"
     },
-    "jwtSecret": "change_this_in_production-123!"
+    "jwtSecret": "6d6046898f46aab3bcb65719bde9c5a75a7b5a1d5e602d3d648908474d2e457a"
 }
